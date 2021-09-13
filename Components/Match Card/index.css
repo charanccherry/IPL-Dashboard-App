@@ -1,0 +1,92 @@
+.match-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  height: 40vh;
+  width: 20vw;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.competingTeamLogo {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 5px;
+}
+.competingTeam {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Sans Serif';
+  font-weight: bold;
+}
+.result {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Sans Serif';
+  font-weight: bold;
+}
+.matchStatus {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Sans Serif';
+  font-weight: bold;
+}
+.match-won {
+  color: green;
+}
+.match-lost {
+  color: red;
+}
+@media screen and (max-width: 576px) {
+  .match-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e293b;
+    height: 30vh;
+    width: 150vw;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .competingTeamLogo {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5px;
+  }
+  .competingTeam {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Sans Serif';
+    font-weight: bold;
+  }
+  .result {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Sans Serif';
+    font-weight: bold;
+  }
+  .matchStatus {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Sans Serif';
+    font-weight: bold;
+  }
+  .match-won {
+    color: green;
+  }
+  .match-lost {
+    color: red;
+  }
+}
